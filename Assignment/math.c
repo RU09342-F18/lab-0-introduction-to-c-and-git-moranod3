@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "math.h"
+#include <stdio.h>
 
 int math(U16 num1, int num2, char Operator){
 int out;
