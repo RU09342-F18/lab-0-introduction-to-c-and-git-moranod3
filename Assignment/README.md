@@ -8,7 +8,7 @@ To use the math.c file the user must first include the math.h file in the main f
         
 To actually use the math function after including the header file the user would simply call the function and input the correct order of parameters. Which is num1, num2, and then operator. The numbers are of type int and the operator is a char. An example of how to utilize the function would be:
 
-            Format: math(int num1, int num2, char operator); //This line would simply return the output of the math function and have no where to store it. 
+            Format: math(int num1, int num2, char operator); //This line would simply return the output of the math function and have no where to store it given that the variables are given values. 
 
             printf("%d", math(10,2, '/'));   // This line prints the return or output of the function  
             
@@ -16,14 +16,14 @@ To actually use the math function after including the header file the user would
             
 What this line does is print the return of the math function which in this case is the determined by dividing 10 by 2. The following are the different char to put for each operation.
 
- '+' Add 
- '-' Subtract 
- '*' Multiply 
- '/' Divide 
- '%' Modulus 
- '<' Left Shift 
- '>' Right Shift 
- '&' Bitwise AND 
- '|' Bitwise OR 
- '^' Bitwise XOR 
- '~' Bitwise Inverse 
+        '+' Add 
+         '-' Subtract 
+        '*' Multiply 
+        '/' Divide 
+        '%' Modulus 
+         '<' Left Shift 
+        '>' Right Shift 
+        '&' Bitwise AND 
+         '|' Bitwise OR 
+        '^' Bitwise XOR 
+        '~' Bitwise Inverse 
