@@ -39,7 +39,7 @@ case '~':
 	if (choice == 1){
 		out = ~num1;
 	}
-	if (choice == 2){
+	elseif (choice == 2){
 		out = ~num2;
 	}
 	else{
